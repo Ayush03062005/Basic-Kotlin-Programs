@@ -1,5 +1,7 @@
-val input: String? = "Kotlin"
+fun main() {
+    val input: String? = "Kotlin"
 
-input?.let {
-    println(it.length)
+    input?.let {
+        println(it.length)
+    }
 }
